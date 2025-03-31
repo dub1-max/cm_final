@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "push": "node git-push.mjs",
+    "pull": "git pull origin main"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.6",
@@ -14,6 +16,7 @@
     "axios": "^1.8.4",
     "clsx": "^2.1.1",
     "framer-motion": "^12.6.2",
+    "inquirer": "^7.3.3",
     "lucide-react": "^0.483.0",
     "motion": "^12.6.2",
     "next": "15.2.3",
